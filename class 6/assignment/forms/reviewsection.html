@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <td style="padding: 10px;" bgcolor="lightgreen">Step 1: Account</td>
+            <td style="padding: 10px;" bgcolor="lightgreen">Step 2: Personal Details</td>
+            <td style="padding: 10px;" bgcolor="lightblue">Step 3: Your Review</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+
+    <form action="#" method="post">
+        <fieldset style="height: 420px; width: 400px;">
+            <legend><Strong>Your Review</Strong></legend>
+            <p>
+                <label for="hear-about">How did you hear about us? </label>
+                <select name="referrer" id="hear-about" title="Select referrer" required>
+                    <option value="" disabled selected>Select your option</option>
+                    <option value="google">Google</option>
+                    <option value="friend">Friend</option>
+                    <option value="advert">Advert</option>
+                    <option value="other">Other</option>
+                </select>
+                <br />
+            </p>
+
+            <p>
+                Would you visit again?
+                <br />
+                <label>
+                    <input type="radio" name="rating" value="yes" />
+                    Yes
+                </label>
+
+                <label>
+                    <input type="radio" name="rating" value="no" />
+                    No
+                </label>
+
+                <label>
+                    <input type="radio" name="rating" value="maybe" />
+                    Maybe
+                </label>
+            </p>
+
+            <p>
+                <label for="comments">Comments:</label>
+                <br />
+                <textarea rows="4" cols="40" id="comments"> </textarea>
+            </p>
+
+            <p>Documents: </p>
+            <input type="file" value="documnet"> <br>
+
+            <p>
+                <input type="checkbox" name="subscribe" checked="checked" />
+                Sign me up for email updates
+            </p>
+            
+            <br />
+
+            <a href="personaldetails.html"><img src="../images/back.png" alt="back" width="120px" height="36px"
+                    tabindex="17"></a>
+            <a href="success.html" type="submit" value="Submit review"><img src="../images/submit.png" alt="submit" width="120px"
+                    height="36px" tabindex="18"></a>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

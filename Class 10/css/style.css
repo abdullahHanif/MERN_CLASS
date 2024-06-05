@@ -1,0 +1,28 @@
+p{
+    background-color: rgb(206, 202, 12);
+    color: burlywood;
+}
+
+div{
+    background-color: rgb(32, 174, 22);
+    color: burlywood;
+}
+
+.xyz{
+    background-color: rgb(13, 104, 137);
+    color: burlywood;
+}
+
+#abc{
+    background-color: rgb(46, 60, 48);
+}
+
+p.xyz {
+    background-color: rgb(105, 11, 49);
+   
+}
+    
+p.abc {
+    background-color: rgb(60, 187, 29);
+    background-color: rgba(249, 37, 51, 0.5);
+}
